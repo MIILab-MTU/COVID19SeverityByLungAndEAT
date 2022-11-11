@@ -2,13 +2,10 @@
 
 ## 1 Code for training the heart segmentation model
 
-- CT images are stored under './data/training/*'.
-- Labels are stored under './data/label/*'.
 - python 1.Heart_seg.py
 
 ## 2 Code for EAT extraction
 
-- Store the CT images to be predicted in the directory './pred/' (npy format file)
 - The pre-trained segmentation model is stored in the directory './unetmodel.pth'
 - python 2.EAT-extract.py
 - The prediction results are saved in the './pred/' directory (npy format file).
